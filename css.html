@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div class="hinhanh">
+     <div class="a hinhanh1">
+        <img src="img/tải xuống.jpg"class="img img1">
+        <p class="chu chu1"> đề 1</p>
+     </div>
+     <div class="a hinhanh2">
+        <img src="img/tải xuống (1).jpg"class="img img2">
+        <p class="chu chu2"> đề 2</p>
+
+     </div>
+     <div class="a hinhanh3"> 
+        <img src="img/tải xuống (2).jpg"class="img img3">
+        <p class="chu chu3"> đề 3</p>
+
+     </div>
+     <div class="a hinhanh4"> 
+        <img src="img/tải xuống (3).jpg"class="img img4">
+        <p class="chu chu4"> đề 4</p>
+     </div>
+   </div>
+   <style>
+    .hinhanh{
+        display: grid;
+        grid-template-columns: 300px 500px 300px;
+
+    }
+    .chu{
+      position: absolute;
+      font-family: 'Times New Roman', Times, serif;
+      
+    }
+    .hinhanh1{
+      grid-row-start:1 ;
+      grid-row-end:3;
+    }
+    .img1{
+      width: 300px;
+      height: 335px;
+    }
+    .chu1{
+      top: 140px;
+      left: 80px;
+      font-size: 40px;
+      color:black;
+    }
+    .hinhanh2{
+      margin-left:5px ;
+    }
+    .chu2{
+      top: 90px;
+      left: 500px;
+      font-size: 30px;
+      color: hsl(0, 0%, 100%);
+    }
+    .chu3{
+      top: 50px;
+    left: 864px;
+      font-size: 30px;
+      color: rgb(9, 9, 9);
+    }
+    .hinhanh4{
+      margin-left: 5px;
+    }
+    .img4{
+      width: 660px;
+    height: 169px;
+    }
+    .chu4{
+      top: 200px;
+      left: 585px;
+      font-size: 30px;
+      color: white;
+    }
+    .img{
+      border-radius: 20px;
+      border: 1px solid gray;
+    }
+    .img2{
+      width: 485px;
+      height: 160px;
+    }
+    .img3{
+      width: 160px;
+      height: 160px;
+    }
+   </style>
+</body>
+</html>
